@@ -20,7 +20,7 @@ int is_98(int elem)
  */
 int is_strictly_positive(int elem)
 {
-    return (elem > 0);
+  return (elem > 0);
 }
 
 
@@ -32,7 +32,7 @@ int is_strictly_positive(int elem)
  */
 int abs_is_98(int elem)
 {
-    return (elem == 98 || -elem == 98);
+  return (elem == 98 || -elem == 98);
 }
 
 /**
