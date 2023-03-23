@@ -1,7 +1,10 @@
 #include "variadic_functions.h"
 
 /**
- * main - check the code
+ * main - Entry point for the program.
+ *
+ * This function calls the `print_all` function with various arguments to
+ * demonstrate its functionality.
  *
  * Return: Always 0.
  */
