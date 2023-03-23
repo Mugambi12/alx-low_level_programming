@@ -1,20 +1,14 @@
-/**
- * @file variadic_functions.c
- * @brief Implementation of variadic_functions.h header file.
- * This file contains the implementation of the functions declared in
- *            variadic_functions.h header file.
- * @author Silas Mugambi
- */
 #include "variadic_functions.h"
 #include <stdarg.h>
 
 /**
- * @brief Sums all its parameters.
- * This function takes a variable number of parameters and calculates their sum.
- * @param n The number of parameters passed to the function.
- * @param ... A variable number of parameters to calculate the sum of.
- * @return If n == 0 - 0.
- * Otherwise - the sum of all parameters.
+ * sum_them_all - Returns the sum of all its parameters.
+ * @n: The number of parameters passed to the function.
+ * @...: A variable number of parameters to calculate the sum of.
+ *
+ * Return: If n == 0, returns 0.
+ *         Otherwise, returns the sum of all parameters.
+ * @author Silas Mugambi
  */
 int sum_them_all(const unsigned int n, ...)
 {
