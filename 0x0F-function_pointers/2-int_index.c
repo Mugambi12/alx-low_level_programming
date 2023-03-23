@@ -15,7 +15,7 @@
  *
  * Return: If no element matches or size <= 0 - -1.
  *         Otherwise - The index of the first element for which
- *                     the cmp function does not return 0.
+ *                    the cmp function does not return 0.
  *
  * This function searches for an integer in an array of integers using a
  *        comparison function passed as an argument.
