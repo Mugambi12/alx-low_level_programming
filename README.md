@@ -30,6 +30,14 @@
     <li>0x06-<a href="https://github.com/Mugambi12/alx-low_level_programming/tree/master/0x06-pointers_arrays_strings"> C - More pointers, arrays and strings</a></li>
     <li>0x07-<a href="https://github.com/Mugambi12/alx-low_level_programming/tree/master/0x07-pointers_arrays_strings"> C - Even more pointers, arrays and strings</a>
     <li>0x08-<a href="https://github.com/Mugambi12/alx-low_level_programming/tree/master/0x08-recursion"> C - Recursion</a></li>
+    <li>0x09-<a href="https://github.com/Mugambi12/alx-low_level_programming/tree/master/0x09-static_libraries">static_libraries</a></li>
+    <li>0x0A-<a href="https://github.com/Mugambi12/alx-low_level_programming/tree/master/0x0A-argc_argv">argc_argv</a></li>
+    <li>0x0B-<a href="https://github.com/Mugambi12/alx-low_level_programming/tree/master/0x0B-malloc_free">malloc_free</a></li>
+    <li>0x0C-<a href="https://github.com/Mugambi12/alx-low_level_programming/tree/master/0x0C-more_malloc_free">more_malloc_free</a>
+    <li>0x0D-<a href="https://github.com/Mugambi12/alx-low_level_programming/tree/master/0x0D-preprocessor">preprocessor</a></li>
+    <li>0x0E-<a href="https://github.com/Mugambi12/alx-low_level_programming/tree/master/0x0E-structures_typedef">structures_typedef</a></li>
+    <li>0x0F-<a href="https://github.com/Mugambi12/alx-low_level_programming/tree/master/0x0F-function_pointers">function_pointers</a>
+    <li>0x10-<a href="https://github.com/Mugambi12/alx-low_level_programming/tree/master/0x10-variadic_functions">variadic_functions</a></li>
     <li>README.md<a href="https://github.com/Mugambi12/alx-low_level_programming/blob/master/README.md"></a></li>
 </ol>
   
