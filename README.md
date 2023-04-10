@@ -16,10 +16,10 @@
   <h2 align="center">Low Level Programming Materials</h2>
 
   <p text-align="justify">These projects are freely available for use in in your learning process. The program in this Repo are written main in C, Shell and small HTML.</p>
-  
-  
+
+
 <h3 align="left">Topics</h3>
-    
+
  <ol align="left">
   <li>0x00-<a href="https://github.com/Mugambi12/alx-low_level_programming/tree/master/0x00-hello_world"> C - hello_world</a></li>
     <li>0x01-<a href="https://github.com/Mugambi12/alx-low_level_programming/tree/master/0x01-variables_if_else_while"> C - variables_if_else_while</a></li>
@@ -38,9 +38,14 @@
     <li>0x0E-<a href="https://github.com/Mugambi12/alx-low_level_programming/tree/master/0x0E-structures_typedef"> C - structures_typedef</a></li>
     <li>0x0F-<a href="https://github.com/Mugambi12/alx-low_level_programming/tree/master/0x0F-function_pointers"> C - function_pointers</a>
     <li>0x10-<a href="https://github.com/Mugambi12/alx-low_level_programming/tree/master/0x10-variadic_functions"> C - variadic_functions</a></li>
+    <li>0x11-<a href="https://github.com/Mugambi12/printf"> C - printf</a></li>
+    <li>0x12-<a href="https://github.com/Mugambi12/alx-low_level_programming/tree/master/0x12-singly_linked_lists"> C - singly_linked_lists</a></li>
+    <li>0x13-<a href="https://github.com/Mugambi12/alx-low_level_programming/tree/master/0x13-more_singly_linked_lists"> C - more_singly_linked_lists</a>
+    <li>0x14-<a href="https://github.com/Mugambi12/alx-low_level_programming/tree/master/0x14-bit_manipulation"> C - bit_manipulation</a></li>
+    <li>0x15-<a href="https://github.com/Mugambi12/alx-low_level_programming/tree/master/0x15-file_io"> C - file_io</a></li>
     <li>README.md<a href="https://github.com/Mugambi12/alx-low_level_programming/blob/master/README.md"></a></li>
 </ol>
-  
+
 </div>
 
 
