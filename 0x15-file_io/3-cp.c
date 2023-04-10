@@ -32,6 +32,8 @@ char *create_buffer(char *file)
 /*
  * close_file - closes a file descriptor and exits on failure
  * @fd: the file descriptor to close
+ *
+ * Return: pointer to the buffer
  */
 void close_file(int fd)
 {
