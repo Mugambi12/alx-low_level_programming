@@ -2,7 +2,8 @@
 #include <stdlib.h>
 
 /**
- * read_textfile - Reads a text file and prints its contents to the standard output.
+ * read_textfile - Reads a text file and prints its contents to
+ *             the standard output.
  * @filename: A pointer to the name of the file to be read.
  * @letters: The number of characters that the function should read and print.
  * Return: If the function fails or the filename is NULL - 0.
