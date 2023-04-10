@@ -29,16 +29,16 @@ char *create_buffer(char *file)
 	return (buffer);
 }
 
-/*
- * close_file - closes a file descriptor and exits on failure
- * @fd: the file descriptor to close
+/**
+ * close_file - Closes a file descriptor and exits on failure.
+ * @fd: The file descriptor to close.
  *
  * Description: This function takes a file descriptor as an argument and closes
- *          it using the close() system call If the close() system call fails,
- *          an error message is printed to the standard error stream and the
- *          program is terminated with exit code 100.
+ * it using the close() system call. If the close() system call fails,
+ * an error message is printed to the standard error stream and the
+ * program is terminated with exit code 100.
  *
- * Return: pointer to the buffer
+ * Return: None.
  */
 void close_file(int fd)
 {
