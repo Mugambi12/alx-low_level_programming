@@ -22,7 +22,7 @@ char *create_buffer(char *file)
 	if (buffer == NULL)
 	{
 		dprintf(STDERR_FILENO,
-			"Error: Unable to write to %s\n", file);
+			"Error: Error occurred while attemptng to write from file %s\n", file);
 		exit(99);
 	}
 
@@ -31,14 +31,9 @@ char *create_buffer(char *file)
 
 /*
  * close_file - closes a file descriptor and exits on failure
- * This function takes a file descriptor as an argument and closes it
- *          using the close() system call.
- * If the close() system call fails, an error message is printed to the
- *          standard error stream and
- * the program is terminated with exit code 100.
  * @fd: the file descriptor to close
  *
- * Return: none
+ * Return: pointer to the buffer
  */
 void close_file(int fd)
 {
@@ -48,7 +43,7 @@ void close_file(int fd)
 
 	if (c == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Failed to close file descriptor %d", fd);
+		dprintf(STDERR_FILENO, "Error: Failed to close file descriptor %d\n", fd);
 		exit(100);
 	}
 }
@@ -72,7 +67,7 @@ int main(int argc, char *argv[])
 
 	if (argc != 3)
 	{
-		dprintf(STDERR_FILENO, "Syntax: copy <source_file> <destination_file>");
+		dprintf(STDERR_FILENO, "Error: copy <source_file> <destination_file>\n");
 		exit(97);
 	}
 
@@ -85,7 +80,7 @@ int main(int argc, char *argv[])
 		if (from == -1 || r == -1)
 		{
 			dprintf(STDERR_FILENO,
-				"Error: Encountered an error while reading from file %s\n", argv[1]);
+				"Error: Error occurred while reading from file %s\n", argv[1]);
 			free(buffer);
 			exit(98);
 		}
@@ -94,7 +89,7 @@ int main(int argc, char *argv[])
 		if (to == -1 || w == -1)
 		{
 			dprintf(STDERR_FILENO,
-				"Error: Encountered an error while writing to file %s\n", argv[2]);
+				"Error: Error occurred while writing from file %s\n", argv[2]);
 			free(buffer);
 			exit(99);
 		}
