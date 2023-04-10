@@ -30,6 +30,12 @@ char *create_buffer(char *file)
 	return (buffer);
 }
 
+/*
+ * Function: close_file
+ * Closes a file descriptor and handles any errors that may occur during the process.
+ * fd: The file descriptor to close.
+ * Returns: Nothing. Exits the program with a status of 100 if an error occurs while closing the file descriptor.
+ */
 void close_file(int fd)
 {
 	int c;
