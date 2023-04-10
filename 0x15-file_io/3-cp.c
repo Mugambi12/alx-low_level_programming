@@ -31,6 +31,11 @@ char *create_buffer(char *file)
 
 /*
  * close_file - closes a file descriptor and exits on failure
+ * This function takes a file descriptor as an argument and closes it
+ *          using the close() system call.
+ * If the close() system call fails, an error message is printed to the
+ *          standard error stream and
+ * the program is terminated with exit code 100.
  * @fd: the file descriptor to close
  *
  * Return: none
