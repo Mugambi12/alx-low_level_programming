@@ -6,11 +6,10 @@ char *create_buffer(char *file);
 void close_file(int fd);
 
 /**
- * copy_file - Copies the contents of a file to another file.
- * @source_file: A pointer to the source file.
- * @destination_file: A pointer to the destination file.
+ * create_buffer - creates a buffer and reads file contents into it
+ * @file: the file to read contents from
  *
- * Return: On success, 0. On failure, -1.
+ * Return: a pointer to the buffer containing file contents, or NULL on failure
  *
  * Author: Silas Mugambi
  */
@@ -31,10 +30,8 @@ char *create_buffer(char *file)
 }
 
 /*
- * Function: close_file
- * Closes a file descriptor and handles any errors that may occur during the process.
- * fd: The file descriptor to close.
- * Returns: Nothing. Exits the program with a status of 100 if an error occurs while closing the file descriptor.
+ * close_file - closes a file descriptor and exits on failure
+ * @fd: the file descriptor to close
  */
 void close_file(int fd)
 {
