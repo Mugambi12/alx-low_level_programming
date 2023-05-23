@@ -1,3 +1,5 @@
 #!/bin/bash
-wget -P /tmp https://github.com/Tolulope05/alx-low_level_programming/raw/master/0x18-dynamic_libraries/nrandom.so
-export LD_PRELOAD=/tmp/nrandom.so
+
+sleep 98
+cp 101-make_me_win.so /tmp
+export LD_PRELOAD=/tmp/101-make_me_win.so
