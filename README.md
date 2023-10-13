@@ -43,6 +43,11 @@
     <li>0x13-<a href="https://github.com/Mugambi12/alx-low_level_programming/tree/master/0x13-more_singly_linked_lists"> C - more_singly_linked_lists</a>
     <li>0x14-<a href="https://github.com/Mugambi12/alx-low_level_programming/tree/master/0x14-bit_manipulation"> C - bit_manipulation</a></li>
     <li>0x15-<a href="https://github.com/Mugambi12/alx-low_level_programming/tree/master/0x15-file_io"> C - file_io</a></li>
+    <li>0x17-<a href="https://github.com/Mugambi12/alx-low_level_programming/tree/master/0x17-doubly_linked_lists"> Doubly linked lists</a></li>
+    <li>0x18-<a href="https://github.com/Mugambi12/alx-low_level_programming/tree/master/0x18-dynamic_libraries"> Dynamic libraries</a></li>
+    <li>0x1A-<a href="https://github.com/Mugambi12/alx-low_level_programming/tree/master/0x1A-hash_tables"> Hash tables</a></li>
+    <li>0x1C-<a href="https://github.com/Mugambi12/alx-low_level_programming/tree/master/0x1C-makefiles"> Makefiles</a></li>
+    <li>0x1E-<a href="https://github.com/Mugambi12/alx-low_level_programming/tree/master/0x1E-search_algorithms"> Search algorithms</a></li>
     <li>README.md<a href="https://github.com/Mugambi12/alx-low_level_programming/blob/master/README.md"></a></li>
 </ol>
 
